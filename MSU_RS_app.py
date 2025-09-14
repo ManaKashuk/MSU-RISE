@@ -51,7 +51,7 @@ st.markdown(
     <div style='text-align:left;'>
         <img src='data:image/png;base64,{logo_base64}' width='700'/>
         <h5><i>🧠 Smart Assistant for Research Integrity, Compliance & Security Support</i></h5>
-        <p>🛡️ Trained on MSU Office of Research Administration Internal SOPs and federal guidance.</p>
+        <p>🛡️ Trained on MSU Office of Research Administration Internal SOPs and Federal Guidance.</p>
     </div>
     """,
     unsafe_allow_html=True
