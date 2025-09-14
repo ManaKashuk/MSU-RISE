@@ -223,7 +223,7 @@ if st.session_state.chat_history:
 st.caption("⚖️Disclaimer: This is a demo tool. For official guidance, refer to MSU policies. 💻 It offers AI-powered answers based on MSU-specific rules, NSPM-33, and quick links to forms and training. 📚 Designed to support under-resourced teams by streamlining award workflows and boosting compliance, without accessing sensitive data.⚖️")
 st.markdown(
     """
-    <hr style="margin-top:-1rem; margin-bottom:0.5rem;">
+    <hr style="margin-top:0.5rem; margin-bottom:0.5rem;">
     <div style="text-align:center; font-size:0.9rem; color:gray;">
         © 2025 Morgan State University Office of Research Administration<br>
     </div>
