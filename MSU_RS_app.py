@@ -27,7 +27,7 @@ def show_answer_with_logo(answer_html):
     st.markdown(
         f"""
         <div style='display:flex;align-items:flex-start;margin:10px 0;'>
-            <img src='data:image/png;base64,{logo_base64}' width='40' style='margin-right:10px;border-radius:8px;'/>
+            <img src='data:image/png;base64,{chat_logo_base64}' width='40' style='margin-right:10px;border-radius:8px;'/>
             <div style='background:#f6f6f6;padding:12px;border-radius:12px;max-width:75%;'>
                 {answer_html}
             </div>
@@ -61,6 +61,13 @@ st.markdown(
 uploaded_file = st.file_uploader("📎 Upload a file for reference (optional)", type=["pdf", "docx", "txt"])
 if uploaded_file:
     st.success(f"Uploaded file: {uploaded_file.name}")
+
+# Chat bubble avatar logo
+try:
+    chat_logo = Image.open("chat.png")  # separate avatar for answers
+    chat_logo_base64 = get_image_base64(chat_logo)
+except Exception:
+    chat_logo_base64 = logo_base64  # fallback to header logo if chat.png missing
 
 # ---------- Load CSV ----------
 # Put a file named msu_faq.csv next to this script with columns: Category,Question,Answer
