@@ -52,7 +52,7 @@ st.markdown(
         <img src='data:image/png;base64,{logo_base64}' width='150'/>
         <h2>MSU Research Integrity Support Engine</h2>
         <h5><i> 🧠Smart Assistant for Research Integrity, Compliance & Security Support</i></h5>
-        <p>🛡️ Trained on Morgan State University Office of Research Administration Internal SOPs and federal guidance.</p>
+        <p>🛡️ Trained on MSU Office of Research Administration Internal SOPs and federal guidance.</p>
     </div>
     """,
     unsafe_allow_html=True
