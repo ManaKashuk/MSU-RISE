@@ -224,7 +224,7 @@ st.caption("⚖️Disclaimer: This is a demo tool. For official guidance, refer 
 st.markdown(
     """
     <hr style="margin-top:0.5rem; margin-bottom:0.5rem;">
-    <div style="text-align:center; font-size:0.9rem; color:dark orange;">
+    <div style="text-align:center; font-size:0.9rem; color:dark_orange;">
         © 2025 Morgan State University Office of Research Administration<br>
     </div>
     """,
