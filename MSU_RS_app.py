@@ -49,9 +49,9 @@ except Exception:
 st.markdown(
     f"""
     <div style='text-align:left;'>
-        <img src='data:image/png;base64,{logo_base64}' width='350'/>
+        <img src='data:image/png;base64,{logo_base64}' width='500'/>
         <h5><i>🧠 Smart Assistant for Research Integrity, Compliance & Security Support</i></h5>
-        <p>🛡️ Trained on Morgan State University Research Security topics and federal guidance.</p>
+        <p>🛡️ Trained on MSU Office of Research Administration Internal SOPs topics and federal guidance.</p>
     </div>
     """,
     unsafe_allow_html=True
