@@ -37,7 +37,7 @@ def show_answer_with_logo(answer_html):
     )
 
 # ---------- Config & Logo ----------
-st.set_page_config(page_title="MSU Research Security Assistant", layout="centered")
+st.set_page_config(page_title="MSU RISE (Research Integrity Support Engine)", layout="centered")
 
 try:
     # Place your MSU logo file beside this script as: logo.png
@@ -52,7 +52,7 @@ st.markdown(
         <img src='data:image/png;base64,{logo_base64}' width='150'/>
         <h2>MSU Research Security Assistant</h2>
         <h5><i> 🧠Smart Assistant for Research Integrity, Compliance & Security Support</i></h5>
-        <p>🛡️ Trained on Morgan State University Research Security topics and federal guidance.</p>
+        <p>🛡️ Trained on Morgan State University Research Office of Research Administration Internal SOPs and federal guidance.</p>
     </div>
     """,
     unsafe_allow_html=True
