@@ -13,7 +13,7 @@ except AttributeError:
 # ...later in your code, use:
 # rerun()
 
-SUPPORT_EMAIL = "ask.ora@morgan.edu"
+SUPPORT_EMAIL = "research.compliance@morgan.edu"
 CONTACT_NOTE = f"If you still need help, email <a href='mailto:{SUPPORT_EMAIL}'>{SUPPORT_EMAIL}</a>."
 
 # ---------- Helper: Convert Logo to Base64 ----------
@@ -52,7 +52,7 @@ st.markdown(
         <img src='data:image/png;base64,{logo_base64}' width='700'/>
         <h2>🛡️MSU Research Security Assistant🛡️ </h2>
         <h5><i>🧠 Smart Assistant for Research Integrity, Compliance & Security Support</i></h5>
-        <p>Trained on MSU Office of Research Administration Internal SOPs and Federal Guidance.</p>
+        <p>Trained on MSU Office of Research Compliance Internal SOPs and Federal Guidance.</p>
     </div>
     """,
     unsafe_allow_html=True
