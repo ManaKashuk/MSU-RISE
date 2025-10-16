@@ -52,7 +52,7 @@ st.markdown(
         <img src='data:image/png;base64,{logo_base64}' width='700'/>
         <h2>🛡️MSU Research Security Assistant🛡️ </h2>
         <h5><i>🧠 Smart Assistant for Research Integrity, Compliance & Security Support</i></h5>
-        <p>Trained on MSU Office of Research Compliance Internal SOPs and Federal Guidance.</p>
+        <p>Trained on MSU Office of Research Compliance Internal Standard Operating Procedures and Federal Guidance.</p>
     </div>
     """,
     unsafe_allow_html=True
@@ -226,7 +226,7 @@ st.markdown(
     """
     <hr style="margin-top:0.5rem; margin-bottom:0.5rem;">
     <div style="text-align:center; font-size:0.9rem; color:gray;">
-        © 2025 Morgan State University Office of Research Administration<br>
+        © 2025 Morgan State University Office of Research Compliance<br>
     </div>
     """,
     unsafe_allow_html=True
