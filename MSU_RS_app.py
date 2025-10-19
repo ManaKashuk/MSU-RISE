@@ -52,7 +52,7 @@ st.markdown(
         <img src='data:image/png;base64,{logo_base64}' width='700'/>
         <h2>🛡️MSU Research Integrity Security Compliance Smart Assistant🛡️ </h2>
         <h5><i>💡 Smart Assistant for Research Integrity, Compliance & Security Support</i></h5>
-        <p> I am trained on MSU Office of Research Compliance Internal Standard Operating Procedures to Help You Navigate Institutional and Federal Research Security Guidance.</p>
+        <p> I am trained on the MSU Office of Research Compliance’s internal Standard Operating Procedures to help you navigate institutional and federal research security guidance.</p>
     </div>
     """,
     unsafe_allow_html=True
