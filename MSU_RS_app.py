@@ -102,7 +102,7 @@ if st.session_state.last_category != category:
 selected_df = df if (df.empty or category == "All Categories") else df[df["Category"] == category]
 
 # ---------- Chat Input ----------
-question = st.text_input("💬 What would you like me to help you with?...", value="" if st.session_state.clear_input else "")
+question = st.text_input("💬 What would you like me to help you with?", value="" if st.session_state.clear_input else "")
 st.session_state.clear_input = False
 
 # ---------- Show Example Questions as Buttons ----------
